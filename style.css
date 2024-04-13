@@ -75,6 +75,12 @@ a {
   transition: 0.2s;
   scale: 1.05;
 }
+
+.header nav ul a li {
+  /* color: red; */
+  /* background: #000; */
+  /* border-radius: 10px; */
+}
 .m-t {
   margin-top: 2rem;
 }
