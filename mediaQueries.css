@@ -31,6 +31,18 @@
 }
 
 @media screen and (max-width: 940px) {
+  .hero {
+    h1 {
+      font-size: 2.6rem;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    a {
+      /* text-align: center; */
+      margin-bottom: 2rem;
+    }
+  }
   .section-1 {
     .box-container {
       grid-template-columns: 1fr;
@@ -44,9 +56,13 @@
       .box {
         grid-template-columns: 1fr;
         text-align: center;
+
         img {
           width: 300px;
           height: 360px;
+        }
+        a {
+          margin-bottom: 2rem;
         }
       }
     }
@@ -70,8 +86,8 @@
           width: 320px;
         }
         .fb {
-          text-align-last: left;
-          margin-left: 4.6rem;
+          text-align: center;
+          margin-bottom: 2rem;
         }
       }
     }
@@ -101,15 +117,16 @@
 
   .menu-bar {
     display: block;
-    z-index: 999;
+    z-index: 9999999999;
   }
   .menu-bar.cm {
     .close {
       display: block;
-      z-index: 999999;
+      z-index: 99999;
     }
     .open {
       display: none;
+      z-index: 99999;
     }
   }
   .header {
@@ -162,5 +179,9 @@
         }
       }
     }
+  }
+  .section-3 .about-img img {
+    height: 380px;
+    width: 380px;
   }
 }

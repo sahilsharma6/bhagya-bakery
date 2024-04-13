@@ -264,6 +264,7 @@ a {
       padding: 1rem;
       width: 380px;
       height: 66px;
+      font-size: 1.6rem;
       /* color: var(--secondary-color-1); */
     }
     ::placeholder {
